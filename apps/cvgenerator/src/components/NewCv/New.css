@@ -1,0 +1,38 @@
+.cvs_container{
+    padding-left: 103px;
+    width: 100%;
+  
+  }
+  .cvs_ {
+    flex: 0.4;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    min-width: fit-content;
+    background-color: #fff;
+  }
+  
+  
+  .cvs___header {
+    position: sticky;
+    top: 0;
+    background-color: darkblue;
+    z-index: 100;
+    border: 1px solid var(--twitter-background);
+    padding: 15px 20px;
+  }
+  
+  .cvs___header > h2 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .new {
+    background-color: red ;
+    border: none;
+    color: white;
+    font-weight: 900 ;
+    text-transform: inherit;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px; 
+  }
