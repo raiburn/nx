@@ -1,4 +1,4 @@
-import Cv from "../components/NewCv/New";
+import Cv from "../components/NewCv/New.tsx";
 import Header from "../components/Header/Header";
 import Sidebar from "../components/Sidebar/Sidebar";
 

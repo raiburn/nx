@@ -1,9 +1,10 @@
 .cvs_container{
-    padding-left: 103px;
-    width: 100%;
+  margin-left: 2%;
+  padding-left: 103px;
+  width: 100%;
   
   }
-  .cvs_ {
+.cvs_ {
     flex: 0.4;
     border-right: 1px solid gray;
     border-left: 1px solid gray;
@@ -26,13 +27,32 @@
     font-weight: 800;
   }
 
+  .cvs___header > button, label {
+    margin-left:  30%;
+  }
+
   .new {
-    background-color: red ;
+    background-color: #E44949 ;
     border: none;
     color: white;
     font-weight: 900 ;
     text-transform: inherit;
-    border-radius: 30px;
+    border-radius: 6%;
     height: 50px;
-    width: 200px; 
+    width: 200px;
+    margin-bottom: 2%; 
+  }
+
+  .cvs_container_cards{
+    display: grid;
+    width: 89%; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 1% 2%; 
+    grid-template-areas: 
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."; 
   }
